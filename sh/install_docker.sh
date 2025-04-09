@@ -1,0 +1,1 @@
+bash <(curl -sSL https://linuxmirrors.cn/docker.sh)

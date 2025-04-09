@@ -1,0 +1,127 @@
+scripts:
+  - key: install_docker
+    sort: 10
+    groups: system
+    name:
+      en: "Install Docker"
+      ja: "Dockerをインストール"
+      ko: "Docker 설치"
+      ms: "Pasang Docker"
+      pt-br: "Instalar Docker"
+      ru: "Установить Docker"
+      zh-hant: "安裝 Docker"
+      zh: "安装 Docker"
+    description:
+      en: "Install Docker"
+      ja: "Dockerをインストール"
+      ko: "Docker 설치"
+      ms: "Pasang Docker"
+      pt-br: "Instalar Docker"
+      ru: "Установить Docker"
+      zh-hant: "安裝 Docker"
+      zh: "安装 Docker"
+  - key: install_clamav
+    sort: 20
+    groups: system
+    name:
+      en: "Install ClamAV"
+      ja: "ClamAVをインストール"
+      ko: "ClamAV 설치"
+      ms: "Pasang ClamAV"
+      pt-br: "Instalar ClamAV"
+      ru: "Установить ClamAV"
+      zh-hant: "安裝 ClamAV"
+      zh: "安装 ClamAV"
+    description:
+      en: "Install ClamAV"
+      ja: "ClamAVをインストール"
+      ko: "ClamAV 설치"
+      ms: "Pasang ClamAV"
+      pt-br: "Instalar ClamAV"
+      ru: "Установить ClamAV"
+      zh-hant: "安裝 ClamAV"
+      zh: "安装 ClamAV"
+  - key: install_fail2ban
+    sort: 30
+    groups: system
+    name:
+      en: "Install Fail2ban"
+      ja: "Fail2banをインストール"
+      ko: "Fail2ban 설치"
+      ms: "Pasang Fail2ban"
+      pt-br: "Instalar Fail2ban"
+      ru: "Установить Fail2ban"
+      zh-hant: "安裝 Fail2ban"
+      zh: "安装 Fail2ban"
+    description:
+      en: "Install Fail2ban"
+      ja: "Fail2banをインストール"
+      ko: "Fail2ban 설치"
+      ms: "Pasang Fail2ban"
+      pt-br: "Instalar Fail2ban"
+      ru: "Установить Fail2ban"
+      zh-hant: "安裝 Fail2ban"
+      zh: "安装 Fail2ban"
+  - key: install_firewall
+    sort: 40
+    groups: system
+    name:
+      en: "Install Firewall"
+      ja: "Firewallをインストール"
+      ko: "Firewall 설치"
+      ms: "Pasang Firewall"
+      pt-br: "Instalar Firewall"
+      ru: "Установить Firewall"
+      zh-hant: "安裝 Firewall"
+      zh: "安装 Firewall"
+    description:
+      en: "Install Firewall"
+      ja: "Firewallをインストール"
+      ko: "Firewall 설치"
+      ms: "Pasang Firewall"
+      pt-br: "Instalar Firewall"
+      ru: "Установить Firewall"
+      zh-hant: "安裝 Firewall"
+      zh: "安装 Firewall"
+  - key: install_pure_ftpd
+    sort: 50
+    groups: system
+    name:
+      en: "Install Pure-FTPd"
+      ja: "Pure-FTPdをインストール"
+      ko: "Pure-FTPd 설치"
+      ms: "Pasang Pure-FTPd"
+      pt-br: "Instalar Pure-FTPd"
+      ru: "Установить Pure-FTPd"
+      zh-hant: "安裝 Pure-FTPd"
+      zh: "安装 Pure-FTPd"
+    description:
+      en: "Install Pure-FTPd"
+      ja: "Pure-FTPdをインストール"
+      ko: "Pure-FTPd 설치"
+      ms: "Pasang Pure-FTPd"
+      pt-br: "Instalar Pure-FTPd"
+      ru: "Установить Pure-FTPd"
+      zh-hant: "安裝 Pure-FTPd"
+      zh: "安装 Pure-FTPd"
+  - key: install_supervisor
+    sort: 60
+    groups: system
+    name:
+      en: "Install Supervisor"
+      ja: "Supervisorをインストール"
+      ko: "Supervisor 설치"
+      ms: "Pasang Supervisor"
+      pt-br: "Instalar Supervisor"
+      ru: "Установить Supervisor"
+      zh-hant: "安裝 Supervisor"
+      zh: "安装 Supervisor"
+    description:
+      en: "Install Supervisor"
+      ja: "Supervisorをインストール"
+      ko: "Supervisor 설치"
+      ms: "Pasang Supervisor"
+      pt-br: "Instalar Supervisor"
+      ru: "Установить Supervisor"
+      zh-hant: "安裝 Supervisor"
+      zh: "安装 Supervisor"
