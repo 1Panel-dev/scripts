@@ -74,10 +74,10 @@ configure_clamd() {
     fi
     cp "$CLAMD_CONF" "$CLAMD_CONF.bak"
 
-    sed -i 's|^LogFileMaxSize .*|LogFileMaxSize 2M|' "$CLAMD_CONF"
-    sed -i 's|^PidFile .*|PidFile /run/clamd.scan/clamd.pid|' "$CLAMD_CONF"
-    sed -i 's|^DatabaseDirectory .*|DatabaseDirectory /var/lib/clamav|' "$CLAMD_CONF"
-    sed -i 's|^LocalSocket .*|LocalSocket /run/clamd.scan/clamd.sock|' "$CLAMD_CONF"
+    sed -i -E 's|^#\s?LogFileMaxSize\s+.*|LogFileMaxSize 2M|' "$CLAMD_CONF"
+    sed -i -E 's|^#\s?PidFile\s+.*|PidFile /run/clamd.scan/clamd.pid|' "$CLAMD_CONF"
+    sed -i -E 's|^#\s?DatabaseDirectory\s+.*|DatabaseDirectory /var/lib/clamav|' "$CLAMD_CONF"
+    sed -i -E 's|^#\s?LocalSocket\s+.*|LocalSocket /run/clamd.scan/clamd.sock|' "$CLAMD_CONF"
 }
 
 configure_freshclam() {
@@ -94,11 +94,11 @@ configure_freshclam() {
     fi
     cp "$FRESHCLAM_CONF" "$FRESHCLAM_CONF.bak"
 
-    sed -i 's|^DatabaseDirectory .*|DatabaseDirectory /var/lib/clamav|' "$FRESHCLAM_CONF"
-    sed -i 's|^PidFile .*|PidFile /var/run/freshclam.pid|' "$FRESHCLAM_CONF"
+    sed -i -E 's|^#\s?DatabaseDirectory\s+.*|DatabaseDirectory /var/lib/clamav|' "$FRESHCLAM_CONF"
+    sed -i -E 's|^#\s?PidFile\s+.*|PidFile /var/run/freshclam.pid|' "$FRESHCLAM_CONF"
     sed -i '/^DatabaseMirror/d' "$FRESHCLAM_CONF"
     echo "DatabaseMirror database.clamav.net" | sudo tee -a "$FRESHCLAM_CONF"
-    sed -i 's|^Checks .*|Checks 12|' "$FRESHCLAM_CONF"
+    sed -i -E 's|^#\s?Checks\s+.*|Checks 12|' "$FRESHCLAM_CONF"
 }
 
 download_database() {
