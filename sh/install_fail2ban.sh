@@ -89,6 +89,7 @@ configure_fail2ban() {
         LOG_FILE="/var/log/secure"
     else
         LOG_FILE="/var/log/auth.log"
+        [ -f "$LOG_FILE" ] || touch "$LOG_FILE"
     fi
 
     cat <<EOF > "$FAIL2BAN_CONF"
