@@ -37,6 +37,10 @@ install_fail2ban() {
     case "$OS" in
         ubuntu|debian)
             apt-get update
+            if [ "$OS" = "debian" ] && [ "$VERSION" = "12" ]; then
+                echo -e "${YELLOW}Detected Debian 12, installing rsyslog...${NC}"
+                apt-get install -y rsyslog
+            fi
             apt-get install -y fail2ban
             ;;
         centos|rhel|fedora)
