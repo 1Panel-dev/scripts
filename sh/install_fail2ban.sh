@@ -37,9 +37,11 @@ install_fail2ban() {
     case "$OS" in
         ubuntu|debian)
             apt-get update
-            if [ "$OS" = "debian" ] && [ "$VERSION" = "12" ]; then
-                echo -e "${YELLOW}Detected Debian 12, installing rsyslog...${NC}"
+            if ! command -v rsyslogd >/dev/null 2>&1; then
+                echo -e "${YELLOW}rsyslog not installed. installing rsyslog...${NC}"
                 apt-get install -y rsyslog
+            else
+                echo -e "${GREEN}rsyslog is already installed.${NC}"
             fi
             apt-get install -y fail2ban
             ;;
@@ -63,15 +65,6 @@ install_fail2ban() {
             exit 1
             ;;
     esac
-
-    sleep 2
-    if command -v systemctl &> /dev/null; then
-        systemctl status fail2ban --no-pager || true
-    else
-        rc-service fail2ban status || true
-    fi
-
-    fail2ban-client status
 }
 
 configure_fail2ban() {
