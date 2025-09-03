@@ -69,7 +69,7 @@ install_pureftpd() {
 configure_pureftpd() {
     echo -e "${GREEN}Configure Pure-FTPd...${NC}"
     
-    if [ -f "/etc/pure-ftpd/conf" ]; then
+    if [ ! -f "/etc/pure-ftpd/conf" ]; then
         PURE_FTPD_CONF="/etc/pure-ftpd/pure-ftpd.conf"
         cp "$PURE_FTPD_CONF" "$PURE_FTPD_CONF.bak"
         sed -i 's/^NoAnonymous[[:space:]]\+no$/NoAnonymous yes/' "$PURE_FTPD_CONF"
