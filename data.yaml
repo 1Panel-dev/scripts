@@ -132,3 +132,25 @@ scripts:
         ru: "Установить Supervisor"
         zh-hant: "安裝 Supervisor"
         zh: "安装 Supervisor"
+    - key: install_rsync
+      sort: 70
+      groups: system
+      interactive: false
+      name:
+        en: "Install Rsync"
+        ja: "Rsyncをインストール"
+        ko: "Rsync 설치"
+        ms: "Pasang Rsync"
+        pt-br: "Instalar Rsync"
+        ru: "Установить Rsync"
+        zh-hant: "安裝 Rsync"
+        zh: "安装 Rsync"
+      description:
+        en: "Install Rsync"
+        ja: "Rsyncをインストール"
+        ko: "Rsync 설치"
+        ms: "Pasang Rsync"
+        pt-br: "Instalar Rsync"
+        ru: "Установить Rsync"
+        zh-hant: "安裝 Rsync"
+        zh: "安装 Rsync"   
