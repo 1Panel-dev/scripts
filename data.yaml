@@ -6,20 +6,24 @@ scripts:
       interactive: true
       name:
         en: "Install Docker"
+        es-es: "Instalar Docker"
         ja: "Dockerをインストール"
         ko: "Docker 설치"
         ms: "Pasang Docker"
         pt-br: "Instalar Docker"
         ru: "Установить Docker"
+        tr: "Docker'ı Kur"
         zh-hant: "安裝 Docker"
         zh: "安装 Docker"
       description:
         en: "Install Docker"
+        es-es: "Instalar Docker"
         ja: "Dockerをインストール"
         ko: "Docker 설치"
         ms: "Pasang Docker"
         pt-br: "Instalar Docker"
         ru: "Установить Docker"
+        tr: "Docker'ı Kur"
         zh-hant: "安裝 Docker"
         zh: "安装 Docker"
     - key: install_clamav
@@ -28,20 +32,24 @@ scripts:
       interactive: false
       name:
         en: "Install ClamAV"
+        es-es: "Instalar ClamAV"
         ja: "ClamAVをインストール"
         ko: "ClamAV 설치"
         ms: "Pasang ClamAV"
         pt-br: "Instalar ClamAV"
         ru: "Установить ClamAV"
+        tr: "ClamAV Kur"
         zh-hant: "安裝 ClamAV"
         zh: "安装 ClamAV"
       description:
         en: "Install ClamAV"
+        es-es: "Instalar ClamAV"
         ja: "ClamAVをインストール"
         ko: "ClamAV 설치"
         ms: "Pasang ClamAV"
         pt-br: "Instalar ClamAV"
         ru: "Установить ClamAV"
+        tr: "ClamAV Kur"
         zh-hant: "安裝 ClamAV"
         zh: "安装 ClamAV"
     - key: install_fail2ban
@@ -50,20 +58,24 @@ scripts:
       interactive: false
       name:
         en: "Install Fail2ban"
+        es-es: "Instalar Fail2ban"
         ja: "Fail2banをインストール"
         ko: "Fail2ban 설치"
         ms: "Pasang Fail2ban"
         pt-br: "Instalar Fail2ban"
         ru: "Установить Fail2ban"
+        tr: "Fail2ban Kur"
         zh-hant: "安裝 Fail2ban"
         zh: "安装 Fail2ban"
       description:
         en: "Install Fail2ban"
+        es-es: "Instalar Fail2ban"
         ja: "Fail2banをインストール"
         ko: "Fail2ban 설치"
         ms: "Pasang Fail2ban"
         pt-br: "Instalar Fail2ban"
         ru: "Установить Fail2ban"
+        tr: "Fail2ban Kur"
         zh-hant: "安裝 Fail2ban"
         zh: "安装 Fail2ban"
     - key: install_firewall
@@ -72,20 +84,24 @@ scripts:
       interactive: true
       name:
         en: "Install Firewall"
+        es-es: "Instalar Firewall"
         ja: "Firewallをインストール"
         ko: "Firewall 설치"
         ms: "Pasang Firewall"
         pt-br: "Instalar Firewall"
         ru: "Установить Firewall"
+        tr: "Firewall Kur"
         zh-hant: "安裝 Firewall"
         zh: "安装 Firewall"
       description:
         en: "Install Firewall"
+        es-es: "Instalar Firewall"
         ja: "Firewallをインストール"
         ko: "Firewall 설치"
         ms: "Pasang Firewall"
         pt-br: "Instalar Firewall"
         ru: "Установить Firewall"
+        tr: "Firewall Kur"
         zh-hant: "安裝 Firewall"
         zh: "安装 Firewall"
     - key: install_pure_ftpd
@@ -94,20 +110,24 @@ scripts:
       interactive: false
       name:
         en: "Install Pure-FTPd"
+        es-es: "Instalar Pure-FTPd"
         ja: "Pure-FTPdをインストール"
         ko: "Pure-FTPd 설치"
         ms: "Pasang Pure-FTPd"
         pt-br: "Instalar Pure-FTPd"
         ru: "Установить Pure-FTPd"
+        tr: "Pure-FTPd Kur"
         zh-hant: "安裝 Pure-FTPd"
         zh: "安装 Pure-FTPd"
       description:
         en: "Install Pure-FTPd"
+        es-es: "Instalar Pure-FTPd"
         ja: "Pure-FTPdをインストール"
         ko: "Pure-FTPd 설치"
         ms: "Pasang Pure-FTPd"
         pt-br: "Instalar Pure-FTPd"
         ru: "Установить Pure-FTPd"
+        tr: "Pure-FTPd Kur"
         zh-hant: "安裝 Pure-FTPd"
         zh: "安装 Pure-FTPd"
     - key: install_supervisor
@@ -116,20 +136,24 @@ scripts:
       interactive: false
       name:
         en: "Install Supervisor"
+        es-es: "Instalar Supervisor"
         ja: "Supervisorをインストール"
         ko: "Supervisor 설치"
         ms: "Pasang Supervisor"
         pt-br: "Instalar Supervisor"
         ru: "Установить Supervisor"
+        tr: "Supervisor Kur"
         zh-hant: "安裝 Supervisor"
         zh: "安装 Supervisor"
       description:
         en: "Install Supervisor"
+        es-es: "Instalar Supervisor"
         ja: "Supervisorをインストール"
         ko: "Supervisor 설치"
         ms: "Pasang Supervisor"
         pt-br: "Instalar Supervisor"
         ru: "Установить Supervisor"
+        tr: "Supervisor Kur"
         zh-hant: "安裝 Supervisor"
         zh: "安装 Supervisor"
     - key: install_rsync
@@ -138,19 +162,49 @@ scripts:
       interactive: false
       name:
         en: "Install Rsync"
+        es-es: "Instalar Rsync"
         ja: "Rsyncをインストール"
         ko: "Rsync 설치"
         ms: "Pasang Rsync"
         pt-br: "Instalar Rsync"
         ru: "Установить Rsync"
+        tr: "Rsync Kur"
         zh-hant: "安裝 Rsync"
         zh: "安装 Rsync"
       description:
         en: "Install Rsync"
+        es-es: "Instalar Rsync"
         ja: "Rsyncをインストール"
         ko: "Rsync 설치"
         ms: "Pasang Rsync"
         pt-br: "Instalar Rsync"
         ru: "Установить Rsync"
+        tr: "Rsync Kur"
         zh-hant: "安裝 Rsync"
-        zh: "安装 Rsync"   
+        zh: "安装 Rsync"
+    - key: install_ffmpeg
+      sort: 80
+      groups: system
+      interactive: false
+      name:
+        en: "Install FFmpeg"
+        es-es: "Instalar FFmpeg"
+        ja: "FFmpegをインストール"
+        ko: "FFmpeg 설치"
+        ms: "Pasang FFmpeg"
+        pt-br: "Instalar FFmpeg"
+        ru: "Установить FFmpeg"
+        tr: "FFmpeg Kur"
+        zh-hant: "安裝 FFmpeg"
+        zh: "安装 FFmpeg"
+      description:
+        en: "Install FFmpeg"
+        es-es: "Instalar FFmpeg"
+        ja: "FFmpegをインストール"
+        ko: "FFmpeg 설치"
+        ms: "Pasang FFmpeg"
+        pt-br: "Instalar FFmpeg"
+        ru: "Установить FFmpeg"
+        tr: "FFmpeg Kur"
+        zh-hant: "安裝 FFmpeg"
+        zh: "安装 FFmpeg"
