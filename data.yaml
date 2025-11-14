@@ -83,27 +83,23 @@ scripts:
       groups: system
       interactive: true
       name:
-        en: "Install Firewall"
-        es-es: "Instalar Firewall"
-        ja: "Firewallをインストール"
-        ko: "Firewall 설치"
-        ms: "Pasang Firewall"
-        pt-br: "Instalar Firewall"
-        ru: "Установить Firewall"
-        tr: "Firewall Kur"
-        zh-hant: "安裝 Firewall"
-        zh: "安装 Firewall"
+        en: "Install Firewalld / UFW"
+        ja: "Firewalld / UFWをインストール"
+        ko: "Firewalld / UFW 설치"
+        ms: "Pasang Firewalld / UFW"
+        pt-br: "Instalar Firewalld / UFW"
+        ru: "Установить Firewalld / UFW"
+        zh-hant: "安裝 Firewalld / UFW"
+        zh: "安装 Firewalld / UFW"
       description:
-        en: "Install Firewall"
-        es-es: "Instalar Firewall"
-        ja: "Firewallをインストール"
-        ko: "Firewall 설치"
-        ms: "Pasang Firewall"
-        pt-br: "Instalar Firewall"
-        ru: "Установить Firewall"
-        tr: "Firewall Kur"
-        zh-hant: "安裝 Firewall"
-        zh: "安装 Firewall"
+        en: "Install Firewalld / UFW"
+        ja: "Firewalld / UFWをインストール"
+        ko: "Firewalld / UFW 설치"
+        ms: "Pasang Firewalld / UFW"
+        pt-br: "Instalar Firewalld / UFW"
+        ru: "Установить Firewalld / UFW"
+        zh-hant: "安裝 Firewalld / UFW"
+        zh: "安装 Firewalld / UFW"
     - key: install_pure_ftpd
       sort: 50
       groups: system
