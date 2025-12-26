@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install Fail2ban
-# Support Ubuntu/Debian/CentOS/RHEL/Alpine/Arch Linux
+# Support Ubuntu/Debian/CentOS/RHEL/Almalinux/Alpine/Arch Linux
 
 set -e
 
@@ -45,7 +45,7 @@ install_fail2ban() {
             fi
             apt-get install -y fail2ban
             ;;
-        centos|rhel|fedora)
+        centos|rhel|fedora|almalinux)
             if [ "$OS" = "rhel" ] && [ "${VERSION%%.*}" -ge 8 ]; then
                 dnf install -y epel-release
                 dnf install -y fail2ban
@@ -121,7 +121,7 @@ start_service() {
             systemctl enable fail2ban
             systemctl restart fail2ban
             ;;
-        centos|rhel|fedora)
+        centos|rhel|fedora|almalinux)
             systemctl enable fail2ban
             systemctl restart fail2ban
             ;;
