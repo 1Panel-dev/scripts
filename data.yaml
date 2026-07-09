@@ -204,3 +204,29 @@ scripts:
         tr: "FFmpeg Kur"
         zh-hant: "安裝 FFmpeg"
         zh: "安装 FFmpeg"
+    - key: install_kvm
+      sort: 90
+      groups: system
+      interactive: false
+      name:
+        en: "Install KVM"
+        es-es: "Instalar KVM"
+        ja: "KVMをインストール"
+        ko: "KVM 설치"
+        ms: "Pasang KVM"
+        pt-br: "Instalar KVM"
+        ru: "Установить KVM"
+        tr: "KVM Kur"
+        zh-hant: "安裝 KVM"
+        zh: "安装 KVM"
+      description:
+        en: "Install KVM"
+        es-es: "Instalar KVM"
+        ja: "KVMをインストール"
+        ko: "KVM 설치"
+        ms: "Pasang KVM"
+        pt-br: "Instalar KVM"
+        ru: "Установить KVM"
+        tr: "KVM Kur"
+        zh-hant: "安裝 KVM"
+        zh: "安装 KVM"
