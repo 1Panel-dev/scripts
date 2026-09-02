@@ -83,23 +83,27 @@ scripts:
       groups: system
       interactive: true
       name:
-        en: "Install Firewalld / UFW"
-        ja: "Firewalld / UFWをインストール"
-        ko: "Firewalld / UFW 설치"
-        ms: "Pasang Firewalld / UFW"
-        pt-br: "Instalar Firewalld / UFW"
-        ru: "Установить Firewalld / UFW"
-        zh-hant: "安裝 Firewalld / UFW"
-        zh: "安装 Firewalld / UFW"
+        en: "Install Firewall"
+        es-es: "Instalar firewall"
+        ja: "ファイアウォールをインストール"
+        ko: "방화벽 설치"
+        ms: "Pasang Firewall"
+        pt-br: "Instalar firewall"
+        ru: "Установить межсетевой экран"
+        tr: "Güvenlik Duvarı Kur"
+        zh-hant: "安裝防火牆"
+        zh: "安装防火墙"
       description:
-        en: "Install Firewalld / UFW"
-        ja: "Firewalld / UFWをインストール"
-        ko: "Firewalld / UFW 설치"
-        ms: "Pasang Firewalld / UFW"
-        pt-br: "Instalar Firewalld / UFW"
-        ru: "Установить Firewalld / UFW"
-        zh-hant: "安裝 Firewalld / UFW"
-        zh: "安装 Firewalld / UFW"
+        en: "Install iptables / nftables / UFW / firewalld"
+        es-es: "Instalar iptables / nftables / UFW / firewalld"
+        ja: "iptables / nftables / UFW / firewalldをインストール"
+        ko: "iptables / nftables / UFW / firewalld 설치"
+        ms: "Pasang iptables / nftables / UFW / firewalld"
+        pt-br: "Instalar iptables / nftables / UFW / firewalld"
+        ru: "Установить iptables / nftables / UFW / firewalld"
+        tr: "iptables / nftables / UFW / firewalld Kur"
+        zh-hant: "安裝 iptables / nftables / UFW / firewalld"
+        zh: "安装 iptables / nftables / UFW / firewalld"
     - key: install_pure_ftpd
       sort: 50
       groups: system
